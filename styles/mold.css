@@ -1,0 +1,409 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #16181D;
+}
+header {
+    margin-top: 120px;
+    min-height: 715px;
+    width: 100%;
+
+    background-image: url("assets/image/Background_Intro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 12px;
+}
+.saudacao{
+    
+    font-family: "Inconsolata", monospace;
+    color: #C0C4CE;
+    margin-top: 56px;
+}
+
+h1 {
+    font-size: 56px;      
+    font-weight: 700;     
+    color: #E2E4E9;      
+    line-height: 1.2;
+    font-family: "Asap", sans-serif;
+}
+.desen{
+    margin-top: 8px;
+}
+
+.patapin{
+    width: 740px;
+    text-align: center;
+    font-weight: 400;   
+    font-family: "Maven Pro", sans-serif;
+    margin-top: 20px;
+    color: #878EA1;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.nome{
+    color: #E3646E;
+    padding-top: 8px;
+    font-family: "Inconsolata", monospace;  
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tecnologias{
+    display: flex;
+    gap: 16px;
+    margin-top: 80px;
+}
+
+.tecnologia{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    background-color:#292c34 ;
+    border-radius: 30px;
+}
+
+.tecnologia img {
+    width: 20px;
+    height: 20px;
+}
+
+.tecnologia span {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #a8abb4;
+}
+
+.git{
+ color: #C0C4CE;
+}
+
+.js{
+ color: #EABD5F;
+}
+
+.html{
+ color: #E3646E;
+}
+
+.css{
+ color: #3996DB;
+}
+
+.nj{
+ color: #82BC4F;
+}
+
+.r{
+ color: #3996DB;
+}
+
+.seta{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 94px;
+    margin-bottom: 57px;
+   
+}
+
+
+
+.titulo-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 72px;
+}
+
+.titulo2{
+    font-size: 20px;
+    padding-bottom: 8px;
+
+}
+
+.titulo-projetos h2 {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 24px;
+    font-weight: 29px;
+    color: #E2E4E9;
+   
+}
+
+
+section{
+    display: block;
+    border: #E2E4E9;
+}
+
+h3{
+    color: #E2E4E9;
+    font-family: "Asap", sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+
+}
+
+.text{
+    color: #C0C4CE;
+    font-family: "Maven Pro", sans-serif ;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.lista-projeto{
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 48px 40px;
+    margin-top: 60px;
+}
+
+.projeto{
+    width: 100%;
+    background-color: #292C34;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.projeto img{
+    width: 100%;
+    height: 160px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    display: block;
+}
+
+.projeto h3{
+    margin-top: 20px;
+    margin-bottom: 8px;
+
+    font-size: "Asap", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E2E4E9
+}
+
+.meu{
+    color: #E3646E;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+}
+
+.servicos {
+    min-height: 480px;
+    margin-top: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0D0E11;
+}
+
+.servicos-conteudo{
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.servicos h2 {
+ margin-top: 8px;
+
+ font-family: "Asap", sans-serif;
+ font-size: 24px ;
+ font-weight: 700;
+color: #E2E4E9;
+}
+
+.servicos-cards{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+    margin-top: 46px;
+}
+
+.servico-card{
+    width: 280px ;
+    height: 155px;
+
+    padding: 20px 16px;
+
+    text-align: left;
+    border: 1px solid #16181D ;
+    border-radius: 12px;
+    background-color: #0D0E11 ;
+}
+
+.servico-card img{
+    width: 32px;
+    height: 32px;
+
+    margin-bottom: 20px;
+}
+
+.servico-card h3{
+    margin: 0;
+
+    font-family: "Asap", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+    color: #E2E4E9;
+}
+
+.servico-card p{
+    margin-top: 8px;
+
+    font-family: "Maven Pro", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+    color: #8B8D94; 
+}
+
+.contato {
+    min-height: 787px;
+    height: 987px;
+    background-color: #16181D;
+    background-image: url("assets/image/Background_Contacts.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+
+.contato-conteudo {
+    width: 100%;
+    max-width: 780px;
+
+    text-align: center;
+}
+
+.contato-subtitulo {
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+
+    color: #BB72E9;
+}
+
+.contato h2 {
+    margin-top: 8px;
+
+    font-family: "Asap", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    color: #E2E4E9;
+}
+
+.contato p {
+    margin-top: 8px;
+
+    font-family: "Maven Pro", sans-serif;
+    font-size: 16px;
+
+    color: #8B8D94;
+}
+
+.links-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    width: 384px;
+    margin: 48px auto 0;
+}
+
+.link-contato {
+    position: relative;
+
+    height: 66px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 20px;
+
+    border-radius: 8px;
+
+    background-color: #292C34;
+
+    text-decoration: none;
+}
+
+.link-contato img {
+    width: 24px;
+    height: 24px;
+}
+
+.link-contato span {
+    margin-left: 16px;
+
+    font-family: "Maven Pro", sans-serif;
+    font-size: 16px;
+
+    color: #C0C4CE;
+
+    text-decoration: none;
+}
+
+.link-contato .seta {
+    position: absolute;
+
+    right: 20px;
+    top: 50%;
+
+    margin: 0;
+
+    transform: translateY(-50%);
+
+    font-size: 22px;
+    color: #3996DB;
+
+    text-decoration: none;
+}
+
+.contato {
+    min-height: 787px;
+
+    background-color: #16181D;
+    background-image: url("assets/image/Background_Contacts.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+}
